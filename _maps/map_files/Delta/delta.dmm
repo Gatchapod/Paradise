@@ -1274,14 +1274,6 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/administration)
-"acV" = (
-/obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/floor/plating,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f5";
-	dir = 2
-	},
-/area/shuttle/pod_1)
 "acW" = (
 /turf/simulated/shuttle/floor{
 	icon_state = "floor3"
@@ -1648,7 +1640,7 @@
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
-	icon_state = "swall_f9";
+	icon_state = "swall_f5";
 	dir = 2
 	},
 /area/shuttle/pod_1)
@@ -1656,10 +1648,10 @@
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
-	icon_state = "swall_f5";
+	icon_state = "swall_f9";
 	dir = 2
 	},
-/area/shuttle/pod_2)
+/area/shuttle/pod_1)
 "adN" = (
 /turf/simulated/wall/r_wall,
 /area/hallway/secondary/entry)
@@ -1689,22 +1681,18 @@
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
-	icon_state = "swall_f9";
+	icon_state = "swall_f5";
 	dir = 2
 	},
 /area/shuttle/pod_2)
 "adR" = (
-/obj/structure/shuttle/engine/propulsion{
-	tag = "icon-propulsion (NORTH)";
-	icon_state = "propulsion";
-	dir = 1
+/obj/structure/shuttle/engine/propulsion/burst,
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f9";
+	dir = 2
 	},
-/turf/space,
-/turf/simulated/shuttle/wall/interior{
-	tag = "icon-swall_f6";
-	icon_state = "swall_f6"
-	},
-/area/shuttle/transport)
+/area/shuttle/pod_2)
 "adS" = (
 /obj/item/radio/intercom/syndicate{
 	pixel_x = -28
@@ -1828,8 +1816,8 @@
 	},
 /turf/space,
 /turf/simulated/shuttle/wall/interior{
-	tag = "icon-swall_f10";
-	icon_state = "swall_f10"
+	tag = "icon-swall_f6";
+	icon_state = "swall_f6"
 	},
 /area/shuttle/transport)
 "aei" = (
@@ -2619,17 +2607,6 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/syndicate)
-"afF" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/turf/simulated/shuttle/wall{
-	tag = "icon-swall_f6";
-	icon_state = "swall_f6";
-	dir = 2
-	},
-/area/shuttle/pod_3)
 "afG" = (
 /obj/machinery/door/airlock/centcom{
 	id_tag = "adminshuttle";
@@ -2682,16 +2659,17 @@
 /turf/simulated/floor/plasteel,
 /area/hallway/secondary/entry)
 "afL" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
+/obj/structure/shuttle/engine/propulsion{
+	tag = "icon-propulsion (NORTH)";
+	icon_state = "propulsion";
+	dir = 1
 	},
-/turf/simulated/floor/plating,
-/turf/simulated/shuttle/wall{
-	tag = "icon-swall_f5";
-	icon_state = "swall_f5";
-	dir = 2
+/turf/space,
+/turf/simulated/shuttle/wall/interior{
+	tag = "icon-swall_f10";
+	icon_state = "swall_f10"
 	},
-/area/shuttle/pod_3)
+/area/shuttle/transport)
 "afM" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
@@ -5700,17 +5678,6 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/maintenance/fsmaint)
-"ami" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/skills{
-	req_access_txt = "19;67";
-	req_one_access = null
-	},
-/turf/simulated/floor/plasteel{
-	dir = 2;
-	icon_state = "bcarpet05"
-	},
-/area/blueshield)
 "amj" = (
 /obj/machinery/door/poddoor/shutters{
 	density = 0;
@@ -6098,14 +6065,6 @@
 /obj/machinery/light/spot,
 /turf/simulated/shuttle/floor4/vox,
 /area/shuttle/vox)
-"anf" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/skills{
-	req_access_txt = "19;73";
-	req_one_access = null
-	},
-/turf/simulated/floor/carpet,
-/area/ntrep)
 "ang" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
@@ -35961,6 +35920,17 @@
 	icon_state = "dark"
 	},
 /area/construction/hallway)
+"bpr" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	tag = "icon-swall_f6";
+	icon_state = "swall_f6";
+	dir = 2
+	},
+/area/shuttle/pod_3)
 "bps" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -40391,6 +40361,17 @@
 "bwN" = (
 /turf/simulated/wall/r_wall,
 /area/engine/gravitygenerator)
+"bwO" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	tag = "icon-swall_f5";
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/pod_3)
 "bwP" = (
 /turf/simulated/wall/r_wall,
 /area/engine/break_room)
@@ -59366,6 +59347,16 @@
 	icon_state = "wood"
 	},
 /area/blueshield)
+"cce" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/skills{
+	req_one_access = null
+	},
+/turf/simulated/floor/plasteel{
+	dir = 2;
+	icon_state = "bcarpet05"
+	},
+/area/blueshield)
 "ccf" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -60295,6 +60286,13 @@
 /obj/item/folder,
 /obj/item/stamp/centcom,
 /obj/item/pen/multi/fountain,
+/turf/simulated/floor/carpet,
+/area/ntrep)
+"cdK" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/skills{
+	req_access_txt = "57"
+	},
 /turf/simulated/floor/carpet,
 /area/ntrep)
 "cdL" = (
@@ -150166,7 +150164,7 @@ aaa
 aaa
 aaa
 aaa
-adR
+aeh
 aih
 aih
 aiQ
@@ -150422,7 +150420,7 @@ aaa
 aaa
 aaa
 aaa
-adR
+aeh
 ahQ
 aii
 aiC
@@ -150936,7 +150934,7 @@ aaa
 aaa
 aaa
 aaa
-aeh
+afL
 ahS
 aij
 aiD
@@ -151194,7 +151192,7 @@ aaa
 aaa
 aaa
 aaa
-aeh
+afL
 aih
 aih
 aiQ
@@ -152469,7 +152467,7 @@ aaa
 add
 adw
 adw
-acV
+adL
 aey
 acC
 afc
@@ -152983,7 +152981,7 @@ aaa
 adf
 adw
 adw
-adL
+adM
 aeA
 acC
 afj
@@ -153846,7 +153844,7 @@ aaa
 bYv
 cac
 cbY
-anf
+cdK
 cfH
 cfH
 ciG
@@ -156158,7 +156156,7 @@ bJh
 abj
 bYx
 caj
-ami
+cce
 cdQ
 cfN
 chr
@@ -157095,7 +157093,7 @@ aaa
 adg
 ady
 ady
-adM
+adQ
 aey
 acC
 afc
@@ -157609,7 +157607,7 @@ aaa
 adi
 ady
 ady
-adQ
+adR
 aeA
 acC
 afj
@@ -174372,9 +174370,9 @@ aaa
 abi
 abj
 aMq
-afF
+bpr
 bbI
-afL
+bwO
 aMq
 abj
 abj
