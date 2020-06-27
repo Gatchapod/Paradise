@@ -858,6 +858,15 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/syndicate)
+"abK" = (
+/obj/structure/shuttle/engine/propulsion/burst,
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	tag = "icon-swall_f5";
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/pod_2)
 "abL" = (
 /obj/structure/cable,
 /obj/structure/lattice/catwalk,
@@ -1514,8 +1523,8 @@
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
-	tag = "icon-swall_f5";
-	icon_state = "swall_f5";
+	tag = "icon-swall_f9";
+	icon_state = "swall_f9";
 	dir = 2
 	},
 /area/shuttle/pod_2)
@@ -1596,14 +1605,15 @@
 	},
 /area/security/permabrig)
 "adg" = (
-/obj/structure/shuttle/engine/propulsion/burst,
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
-	tag = "icon-swall_f9";
-	icon_state = "swall_f9";
+	icon_state = "swall_f6";
 	dir = 2
 	},
-/area/shuttle/pod_2)
+/area/shuttle/pod_3)
 "adh" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Escape Pod Airlock"
@@ -2055,6 +2065,16 @@
 	icon_state = "dark"
 	},
 /area/security/permabrig)
+"adZ" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/pod_3)
 "aea" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 4;
@@ -5383,12 +5403,15 @@
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plasteel{
+	icon_state = "vault";
+	dir = 5
+	},
 /turf/simulated/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
 	},
-/area/shuttle/pod_3)
+/area/shuttle/pod_4)
 "ajs" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/simulated/floor/plasteel{
@@ -5496,6 +5519,19 @@
 	icon_state = "vault"
 	},
 /area/security/hos)
+"ajA" = (
+/obj/structure/shuttle/engine/propulsion/burst{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "vault";
+	dir = 5
+	},
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/pod_4)
 "ajB" = (
 /turf/simulated/wall/r_wall,
 /area/maintenance/auxsolarport)
@@ -5666,15 +5702,14 @@
 	},
 /area/security/permabrig)
 "ajS" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
+/obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/floor/plating,
 /turf/simulated/shuttle/wall{
+	tag = "icon-swall_f5";
 	icon_state = "swall_f5";
 	dir = 2
 	},
-/area/shuttle/pod_3)
+/area/shuttle/pod_1)
 "ajT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/yellow{
@@ -6173,6 +6208,15 @@
 	icon_state = "dark"
 	},
 /area/security/podbay)
+"akP" = (
+/obj/structure/shuttle/engine/propulsion/burst,
+/turf/simulated/floor/plating,
+/turf/simulated/shuttle/wall{
+	tag = "icon-swall_f9";
+	icon_state = "swall_f9";
+	dir = 2
+	},
+/area/shuttle/pod_1)
 "akQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -6768,6 +6812,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/security/main)
+"alQ" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8;
+	icon_state = "propulsion";
+	tag = "icon-propulsion (EAST)"
+	},
+/turf/space,
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f6";
+	dir = 2
+	},
+/area/shuttle/transport)
 "alR" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
@@ -7713,6 +7769,18 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/plating,
 /area/maintenance/disposal)
+"anx" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8;
+	icon_state = "propulsion";
+	tag = "icon-propulsion (EAST)"
+	},
+/turf/space,
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/transport)
 "any" = (
 /obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plating,
@@ -8952,6 +9020,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fore)
+"apP" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/skills{
+	req_access_txt = "73";
+	req_one_access = null
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/carpet,
+/area/ntrep)
 "apQ" = (
 /obj/machinery/sleeper{
 	icon_state = "sleeper-open";
@@ -9075,6 +9152,16 @@
 	dir = 4
 	},
 /area/security/brig)
+"aqe" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/skills{
+	req_access_txt = "67";
+	req_one_access = null
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "bcarpet05"
+	},
+/area/blueshield)
 "aqf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -27539,19 +27626,6 @@
 /area/hallway/secondary/entry{
 	name = "Arrivals"
 	})
-"aWE" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "vault";
-	dir = 5
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f6";
-	dir = 2
-	},
-/area/shuttle/pod_4)
 "aWF" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Escape Pod Airlock"
@@ -27562,19 +27636,6 @@
 	},
 /turf/simulated/shuttle/floor,
 /area/shuttle/pod_1)
-"aWG" = (
-/obj/structure/shuttle/engine/propulsion/burst{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "vault";
-	dir = 5
-	},
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f5";
-	dir = 2
-	},
-/area/shuttle/pod_4)
 "aWH" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 4;
@@ -35591,15 +35652,6 @@
 	dir = 2
 	},
 /area/shuttle/arrival/station)
-"bkj" = (
-/obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/floor/plating,
-/turf/simulated/shuttle/wall{
-	tag = "icon-swall_f5";
-	icon_state = "swall_f5";
-	dir = 2
-	},
-/area/shuttle/pod_1)
 "bkk" = (
 /obj/effect/spawner/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -36313,15 +36365,6 @@
 /area/quartermaster/office{
 	name = "\improper Cargo Office"
 	})
-"bly" = (
-/obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/floor/plating,
-/turf/simulated/shuttle/wall{
-	tag = "icon-swall_f9";
-	icon_state = "swall_f9";
-	dir = 2
-	},
-/area/shuttle/pod_1)
 "blz" = (
 /turf/space,
 /turf/simulated/shuttle/wall{
@@ -49667,18 +49710,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/atmos)
-"bGW" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon_state = "propulsion";
-	tag = "icon-propulsion (EAST)"
-	},
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f6";
-	dir = 2
-	},
-/area/shuttle/transport)
 "bGX" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "swall12";
@@ -52849,18 +52880,6 @@
 /area/construction/hallway{
 	name = "\improper MiniSat Exterior"
 	})
-"bMv" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon_state = "propulsion";
-	tag = "icon-propulsion (EAST)"
-	},
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f5";
-	dir = 2
-	},
-/area/shuttle/transport)
 "bMw" = (
 /turf/simulated/shuttle/floor,
 /turf/simulated/shuttle/wall/interior{
@@ -57422,14 +57441,6 @@
 /area/ai_monitored/storage/eva{
 	name = "E.V.A. Storage"
 	})
-"bVc" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/skills{
-	req_access_txt = "57"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/carpet,
-/area/ntrep)
 "bVd" = (
 /obj/structure/table/wood,
 /obj/item/folder,
@@ -58248,15 +58259,6 @@
 	},
 /obj/effect/landmark/start{
 	name = "Blueshield"
-	},
-/turf/simulated/floor/plasteel{
-	icon_state = "bcarpet05"
-	},
-/area/blueshield)
-"bWI" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/skills{
-	req_one_access = null
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "bcarpet05"
@@ -105881,7 +105883,7 @@ aaa
 aSq
 aTN
 aTN
-bkj
+ajS
 ayC
 aWD
 aUN
@@ -105903,9 +105905,9 @@ aUN
 aUN
 aUN
 aaa
-bGW
+alQ
 bKr
-bMv
+anx
 aaa
 aUN
 aUN
@@ -106159,11 +106161,11 @@ aUN
 bBr
 bcy
 aUN
-bGW
+alQ
 bIG
 bKs
 bMw
-bMv
+anx
 aUN
 bRz
 bcy
@@ -106395,7 +106397,7 @@ aaa
 aSs
 aTN
 aTN
-bly
+akP
 aYg
 aZj
 baJ
@@ -120997,7 +120999,7 @@ aaa
 acu
 acH
 acH
-acY
+abK
 adv
 adV
 aew
@@ -121511,7 +121513,7 @@ aaa
 acw
 acH
 acH
-adg
+acY
 djL
 adW
 abB
@@ -123387,7 +123389,7 @@ bQo
 bSb
 bSa
 bUY
-bWI
+aqe
 bYd
 bZl
 car
@@ -124928,7 +124930,7 @@ bON
 bQt
 bSf
 bTM
-bVc
+apP
 bWO
 bYn
 bZp
@@ -134372,9 +134374,9 @@ aaa
 abq
 aaa
 afb
-ajr
+adg
 agh
-ajS
+adZ
 afb
 ajb
 ajp
@@ -142352,9 +142354,9 @@ aaa
 aaa
 aaa
 aoG
-aWE
+ajr
 bnG
-aWG
+ajA
 axh
 azf
 dAH
