@@ -52688,7 +52688,12 @@
 	},
 /obj/machinery/computer/skills{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	req_access_txt = "57"
+=======
+	req_access_txt = "57";
+	req_one_access = null
+>>>>>>> Stashed changes
 =======
 	req_access_txt = "57";
 	req_one_access = null
@@ -62599,7 +62604,12 @@
 /obj/structure/table/wood,
 /obj/machinery/computer/skills{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	req_access_txt = "57"
+=======
+	req_access_txt = "73";
+	req_one_access = null
+>>>>>>> Stashed changes
 =======
 	req_access_txt = "73";
 	req_one_access = null
@@ -67282,6 +67292,10 @@
 /obj/structure/table/wood,
 /obj/machinery/computer/skills{
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+	req_access_txt = "67";
+>>>>>>> Stashed changes
 =======
 	req_access_txt = "67";
 >>>>>>> Stashed changes
